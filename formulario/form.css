@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BARRA DE ROLAGEM */
+::-webkit-scrollbar{
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0494f5;
+    border-radius: 20px;
+}
+
+/* BODY */
+body{
+    background: linear-gradient(#11111198,#27abd771), url(../assets/imgs/ft-top-bg.png) no-repeat;
+    background-size: cover;    
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    align-items: center;
+}
+
+.header img{
+    width: 15vmax;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 2vmax;
+    color: #ffa500;    
+}
+
+.header a:focus,
+.header a:hover{
+    color: #27abd7;
+}
+
+/* ESTILIZAÇÃO - FORMULÁRIO */
+.caixa-formulario{
+    width: 80%;
+    margin: 10vmax auto;   
+    text-align: center;      
+    background-color: #ffa60056;
+    
+}
+
+.formulario-text{
+    background-color: #ffa6006b;    
+    display: block;
+    padding: 2%;    
+}
+
+.formulario-text > h2{
+    color: #fff;
+    font-size: 4vmax;
+}
+
+.formulario-text > p{
+    color: #fff;
+    border-bottom: 1px solid #ffa;
+    display: inline;
+    font-size: 1.5vmax;       
+}
+
+form{
+    padding: 5% 10% 10% 10%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;    
+}
+
+form div{
+    margin: 2%;    
+    display: flex;  
+    justify-content: center;         
+    flex-direction: column;    
+}
+
+/* ESTILIZANDO - FORMULÁRIO LABEL */
+form div:nth-child(odd) > label{
+    color: #ffa;         
+}
+
+form > div label{    
+    color: #ffa500;                
+    width: 100%;  
+    padding: 2%;  
+}
+
+/* ESTILIZANDO - FORMULÁRIO INPUT */
+form > div input{    
+    padding: 1%;
+    background-color: #ffffff4f;    
+    color: #111;    
+    font-size: 1.5vmax;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+form > div input:focus{
+    transition: .3s;
+    background-color: #27abd79f;    
+}
+
+.termos{
+    color: #111;
+    margin-top: 3%;    
+}
+
+.termos label > b{
+    border-bottom: 1px solid #ffd500;
+    color: #ffd500;
+    font-weight: 200;
+}
+
+/* INPUT - SUBMIT */
+.enviar{        
+    margin-left: 30%;
+    margin-top: 2vmax;
+}
+
+/* RETIRANDO SETAS DO INPUT type="number" */
+#cpf::-webkit-inner-spin-button{ 
+    -webkit-appearance: none;    
+}
+
+#cpf{ 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+/* INPUT type="submit" */
+form input[type="submit"]{
+    transition: .3s;
+    cursor: pointer;
+    border: none;   
+    font-size: 1.5vmax;            
+    border: none;
+    background-color: #ffa500;
+    color: #111;        
+    padding: 10px;
+    border: 4px double #111;    
+}
+
+form input[type="submit"]:focus,
+form input[type="submit"]:hover{
+    transition: .3s;     
+    filter: brightness(1.3);       
+}
+
+/* FOOTER */
+footer{    
+    color: #fff;
+    text-align: center;
+    padding: 3vmax;            
+    min-height: 20vmax;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+footer a{
+    color: #ffa500;
+}
+
+footer a:focus,
+footer a:hover{
+    color: #fff;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 480px) {
+    .caixa-formulario{
+        width: 100%;
+    }            
+}

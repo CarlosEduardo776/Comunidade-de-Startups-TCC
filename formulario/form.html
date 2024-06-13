@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inova Network © | Cadastre - se</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="../assets/imgs/logo.png" type="image/png">
+    
+    <!-- CDN - ICONS FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/c1425a6fcc.js" crossorigin="anonymous"></script>    
+</head>
+<body>    
+    <main>                    
+        <span class="header">
+            <img src="../assets/imgs/logo.png" alt="logo ViaMaximus">
+            <a href="../index.html">
+                <i class="fa-solid fa-house"></i>
+                Voltar
+            </a>
+        </span>
+        <!-- FORMULÁRIO - HTML -->
+        <div class="caixa-formulario">
+            <span class="formulario-text">                                
+                <h2>
+                    <i class="fa-regular fa-user"></i>
+                    Faça sua inscrição
+                </h2>
+                <p>e conheça novos horizontes</p>                
+            </span>
+            <form action="#">                        
+                <div>
+                    <label for="nome">Nome Completo</label>
+                    <input id="nome" type="text"  autocomplete="off" maxlength="35">
+                </div>
+    
+                <div>
+                    <label for="cpf">CPF</label>
+                    <input id="cpf" autocomplete="off" required                                                
+                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                        type = "number"
+                        maxlength = "11"
+                    >
+                </div>
+    
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" autocomplete="off" required maxlength="40">
+                </div>
+            
+                <div>
+                    <label for="email-2">Repita o Email</label>
+                    <input id="email-2" type="email" autocomplete="off" required maxlength="40">
+                </div>
+    
+                <div>
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" autocomplete="off" required maxlength="30">
+                </div>
+    
+                <div>
+                    <label for="senha-2">Repita Senha</label>
+                    <input id="senha-2" type="password" autocomplete="off" required maxlength="30">
+                </div>                
+            
+                <span class="termos">       
+                    <input id="termos" type="checkbox" required>
+                    <label for="termos">Aceito os termos de <b>uso e contrato</b></label>
+                </span>
+
+                <span class="enviar">
+                    <input type="submit" value="CADASTRAR">
+                </span>
+            </form>
+        </div>        
+    </main>
+
+    <footer>
+        <div>
+            <p>Copyright © 2023 <a href="../index.html">ViaMaximus</a></p>
+        </div>
+    </footer>    
+
+    <!-- API - LIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>
