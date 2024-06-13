@@ -111,3 +111,91 @@ header{
     color: #fff;
     border: 1px solid #fff;
 }
+
+
+
+
+
+
+/* FOOTER */
+.ft-top{    
+    color: #fff;
+    padding: 8% 10% 10% 10%;
+    background: linear-gradient(#27abd771,#27abd771), url(assets/imgs/ft-top-bg.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.ft-top h2{            
+    color: #fff;
+    width: max-content;
+    padding: .5%;
+    margin: 1% auto;        
+    font-size: 3vmax;
+    font-weight: 300;
+}
+
+.ft-top img{
+    width: 20vmax;             
+}
+
+.ft-top p{    
+    text-align: left;
+    font-size: 2vmax;    
+}
+
+.ft-top p > b{
+    color: #ffa500;
+    border-bottom: 1px solid #ffa500;
+}
+
+.copyright{
+    padding: 7% 7% .2% 7%;    
+    text-align: center;
+    background-color: #27AAD7;
+    color: #fff;
+    font-size: 3vmax;
+}
+
+.copyright a{
+    color: #fff;
+}
+
+.copyright a:focus,
+.copyright a:hover{
+    color: #ffa500;
+}
+
+.ft-contact{
+    display: block;    
+    margin: 5% 0;
+    font-size: 1.5vmax;       
+}
+
+.ft-contact ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    text-align: left;
+}
+
+.ft-contact li{
+    display: flex;
+    justify-content: center;    
+    gap: 20px;
+}
+
+.ft-contact svg{
+    color: #ffa500;
+}
+
+/* MOBILE ADAPTATION */
+@media (max-width: 480px){
+    .logo{        
+        margin: 0 auto;        
+    }    
+
+    .logo img{
+        width: 20vmax;
+    }
+}
