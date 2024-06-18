@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 ::-webkit-scrollbar{
@@ -17,13 +18,18 @@
 
 /* HEADER */
 header{    
+<<<<<<< Updated upstream
     background: linear-gradient(#1111116c,#1111113a),url(bannersimg/banner1sla.png) no-repeat;        
+=======
+    background: linear-gradient(#00B4D8,#1111113a),url(assets/imgs/map.jpg) no-repeat;        
+>>>>>>> Stashed changes
     background-size: cover;        
     color: #fff;          
     display: flex;         
     flex-wrap: wrap;
-    justify-content: space-between;
-    font-size: 2.5vmax;            
+    justify-content: space-evenly;
+    font-size: 2.5vmax;
+    align-items: center;           
 }
 
 .logo{    
@@ -35,13 +41,14 @@ header{
 }
 
 .nav-center{
-    padding: 3%;    
+    padding: 3%;
 }
 
 .nav-center ul{
     display: flex;        
     justify-content: center;
     gap: 2rem;
+    align-items: center;
 }
 
 .nav-center a{    
@@ -94,30 +101,51 @@ header{
     font-size: 80%;    
 }
 
+<<<<<<< Updated upstream
 .more span{
     background-color: #27abd7;            
     display: block;
     padding: 5%;    
+=======
+.more{
+    background-color: #ffffff;            
+    display: flex;
+    padding: 5%;   
+    justify-content: space-evenly; 
+}
+
+.more h1{
+    color: #7A58DB;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: start;
+>>>>>>> Stashed changes
 }
 
 .more p{
     padding-bottom: 3%;
-    font-size: 1.5ch;    
+    font-size: 1.5ch;
+    color: black;    
+}
+
+.more img{
+    height: 28rem;
+    width: auto;
 }
 
 .more a{
     text-decoration: none;    
-    color: #27AAD7;    
+    color: white;    
     border-radius: 20px;
     padding: 1vmax;    
-    background-color: #fff;
+    background-color: #0494f5;
     font-size: 2ch;
 }
 
 .more a:focus,
 .more a:hover{
-    transition: .2s;
-    background-color: #27AAD7;        
+    transition: 0.9s;
+    background-color: #FF7A00;        
     color: #fff;
     border: 1px solid #fff;
 }
