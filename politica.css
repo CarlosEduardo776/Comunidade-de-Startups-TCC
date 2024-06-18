@@ -7,7 +7,7 @@
 }
 
 header{    
-    background: linear-gradient(#1111116c,#1111113a),url(assets/imgs/map.jpg) no-repeat;        
+    background: linear-gradient(#1111116c,#1111113a),url(bannersimg/banner1sla.png) no-repeat;        
     background-size: cover;        
     color: #fff;          
     display: flex;         
@@ -111,7 +111,7 @@ header{
 }
 
 .more span{
-    background-color: #27abd771;            
+    background-color: #27abd7;            
     display: block;
     padding: 5%;    
 }
