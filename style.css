@@ -203,27 +203,57 @@ header{
 }
 
 
-.events{
-    padding: 4rem;    
-    align-items: center;    
+
+
+
+
+
+
+
+
+
+
+.comentario{
+    padding: 5rem;
+    
+}
+.comentario h2{
+    text-align: center;
 }
 
-.events ul{
-    display: flex;    
-    justify-content: center;
-    text-align: left;
-    gap: 5%;
+.comentariodiv{
+    display: flex;
+    justify-content: space-between;
 }
 
-.events li{
-    width: 100%;        
+.filho{
+    height: 15rem;
+    width: 18rem;
+    padding: 4rem;
+    background-color: #ccd5d8;
+    margin-top: 3rem;
+    border-radius: 20px;
+}
+.filho img{
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.events img{
-    width: 25vw;
-    height: 15vmax;            
-    border: 2px solid #0494f5;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ANIMATION - HR*/
 @keyframes hr-move {
