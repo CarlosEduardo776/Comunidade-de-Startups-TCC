@@ -23,7 +23,8 @@ header{
     display: flex;         
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 2.5vmax;            
+    font-size: 2.5vmax;        
+    margin-bottom: 0rem;   
 }
 
 .logo{    
@@ -74,12 +75,12 @@ header{
 #auto-text{    
     width: 100%;    
     height: 10vmax;    
-    padding: .2vw;
+    padding: 2vw;
     margin: 1rem;               
 }
 
 #auto-text h3{
-    font-size: 5vmax;    
+    font-size: 3vmax;    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
     color: #fff;      
@@ -87,7 +88,7 @@ header{
 }
 
 .more{        
-    padding: 5rem;    
+    padding: 1rem;    
     width: 100%;  
                         
     text-align: center;
@@ -212,27 +213,47 @@ header{
 
 
 
-.events{
-    padding: 4rem;    
-    align-items: center;    
+.comentario{
+    padding: 5rem;
+    
+}
+.comentario h2{
+    text-align: center;
 }
 
-.events ul{
-    display: flex;    
-    justify-content: center;
-    text-align: left;
-    gap: 5%;
+.comentariodiv{
+    display: flex;
+    justify-content: space-between;
 }
 
-.events li{
-    width: 100%;        
+.filho{
+    height: 15rem;
+    width: 18rem;
+    padding: 4rem;
+    background-color: #ccd5d8;
+    margin-top: 3rem;
+    border-radius: 20px;
+}
+.filho img{
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.events img{
-    width: 25vw;
-    height: 15vmax;            
-    border: 2px solid #0494f5;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ANIMATION - HR*/
 @keyframes hr-move {
