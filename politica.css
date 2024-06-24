@@ -7,7 +7,8 @@
 }
 
 header{    
-    background: linear-gradient(#1110106c,#1111113a),url(bannersimg/banner1sla.png) no-repeat;        
+    /* background: linear-gradient(#1110106c,#1111113a),url(bannersimg/banner1sla.png) no-repeat;*/
+    background: url(bannersimg/banner1sla.png);
     background-size: cover;        
     color: #fff;          
     display: flex;         
@@ -46,8 +47,9 @@ header{
 }
 
 .logo img{
-    width: 30vmax;    
+    width: 15vmax;    
 }
+
 
 #auto-text{    
     width: 100%;    
