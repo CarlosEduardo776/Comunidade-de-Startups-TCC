@@ -318,9 +318,10 @@ header{
 }
 
 .img-box img{
-    width: 90%;    
-    height: 40vmax;
-    opacity: 20%;        
+    width: 50%;    
+    height: 28vmax;
+    opacity: 30%;    
+    margin-left: 6rem;    
 }
 
 .form-box{    
