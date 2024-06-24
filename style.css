@@ -110,6 +110,7 @@ header{
     font-family: sans-serif;
     font-weight: 800;
     line-height: 4rem;
+    font-size: 3rem;
 }
 
 .more span{           
@@ -118,7 +119,7 @@ header{
 
 .more p{
     padding-bottom: 3%;
-    font-size: 1.5ch;  
+    font-size: 1.7rem;  
     margin: 1rem 0;  
 }
 

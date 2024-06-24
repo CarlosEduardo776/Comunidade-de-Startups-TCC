@@ -35,3 +35,23 @@ function autoText(){
     })    
 }
 autoText()
+
+window.revelar = ScrollReveal({reset:true});
+
+revelar.reveal('.efeitoHeader', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'top'
+});
+
+revelar.reveal('.services', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'left'
+});
+
+revelar.reveal('.more', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'bottom'
+});
