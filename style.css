@@ -32,7 +32,7 @@ header{
 }
 
 .logo img{
-    width: 20vmax;    
+    width: 10rem;    
 }
 
 .nav-center{
@@ -301,26 +301,30 @@ header{
     color: #0494f5;
 }
 
+
+
+
 /* FORMULARY */
 .formulary{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #db5858;    
+    background-color: #6a41db;    
     color: #ffffff;
 }
 
 .img-box{
-    width: 50%;    
-    position: absolute;
-    right: 0;            
+    /* width: 50%;    
+    
+    right: 0;             */
 }
 
 .img-box img{
-    width: 90%;    
-    height: 40vmax;
-    opacity: 20%;        
+    width: auto;    
+    height: 25rem;
+    border-radius: 20px;
+    margin-left: -20rem;
 }
 
 .form-box{    
@@ -346,7 +350,7 @@ form input{
     border: solid;
     border-radius: 15px;
     height: 3rem;
-    width: 80%;
+    width: 50%;
     border-color: #0494f5;
 }
 
@@ -362,7 +366,7 @@ form input[type="submit"]{
     color: #fff;
     cursor: pointer;
     border: none;
-    margin: 2%;
+    
     text-align: center;
 }
 
