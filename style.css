@@ -292,13 +292,6 @@ header{
 
 
 
-
-
-
-
-
-
-
 /* ANIMATION - HR*/
 @keyframes hr-move {
     from{
@@ -338,9 +331,8 @@ header{
 }
 
 .img-box{
-    /* width: 50%;    
-    
-    right: 0;             */
+ width: 50%;   
+    right: 0;    
 }
 
 .img-box img{
