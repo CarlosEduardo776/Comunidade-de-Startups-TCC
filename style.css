@@ -500,8 +500,7 @@ form input[type="submit"]:focus{
 .ft-top{    
     color: #fff;
     padding: 8% 10% 10% 10%;
-    background: linear-gradient(#27abd771,#27abd771), url(assets/imgs/ft-top-bg.png) no-repeat;
-    background-size: cover;
+    background-color: rgb(27, 27, 24);
     text-align: center;
 }
 
@@ -510,16 +509,18 @@ form input[type="submit"]:focus{
     width: max-content;
     padding: .5%;
     margin: 1% auto;        
-    font-size: 3vmax;
-    font-weight: 300;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .ft-top img{
-    width: 20vmax;             
+    height: 10rem;
+    width: auto;             
 }
 
 .ft-top p{    
-    text-align: left;
+    text-align: justify;
     font-size: 2vmax;    
 }
 
