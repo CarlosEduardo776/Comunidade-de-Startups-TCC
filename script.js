@@ -28,3 +28,15 @@ revelar.reveal('.more', {
     distance: '150px',
     origin: 'bottom'
 });
+
+revelar.reveal('.filho', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'bottom'
+});
+
+revelar.reveal('.filho2', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'top'
+});
