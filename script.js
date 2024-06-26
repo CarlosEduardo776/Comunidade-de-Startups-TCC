@@ -11,11 +11,17 @@ autoText()
 
 window.revelar = ScrollReveal({reset:true});
 
+revelar.reveal('.Banner', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'top'
+});
 revelar.reveal('.efeitoHeader', {
     duration: 3000,
     distance: '150px',
     origin: 'top'
 });
+
 
 revelar.reveal('.services', {
     duration: 3000,
