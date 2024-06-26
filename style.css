@@ -239,6 +239,7 @@ header{
 .comentario{
     padding: 6rem;
     background-color: rgba(0,180,216,1);
+    flex-wrap: wrap;
 }
 .comentario h2{
     text-align: center;
@@ -249,6 +250,7 @@ header{
 .comentariodiv{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .filho{
@@ -258,6 +260,7 @@ header{
     background-color: #ccd5d8;
     text-align: center;
     border-radius: 20px;
+    
 }
 .filho img{
     height: 40%;
@@ -270,6 +273,7 @@ header{
 .filho p{
     font-size: 1em;
     text-align:justify;
+    
 }
 .filho h4{
     padding: 1em;
