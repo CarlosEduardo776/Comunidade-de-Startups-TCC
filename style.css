@@ -596,13 +596,10 @@ form input[type="submit"]:focus{
     width:100%;
     margin: auto;
     align-items: stretch;
-    padding: 60px 10px 40px 10px;
+    padding: 1em;
+    justify-content: space-evenly;
 }
-.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-    display: flex;
-    width: calc(100% / 4 - 20px);
-    padding: 10px;
-}
+
 .rodape span{
     font-size: 20px;
     color: white;
@@ -612,6 +609,7 @@ form input[type="submit"]:focus{
    padding: 1rem;
     text-align: center;
 }
+
 /*mobile*/
 @media (max-width: 768px) {
     .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{

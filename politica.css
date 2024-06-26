@@ -180,22 +180,8 @@ header{
     border-bottom: 1px solid #ffa500;
 }
 
-.copyright{
-    padding: 7% 7% .2% 7%;    
-    text-align: center;
-    background-color: #27AAD7;
-    color: #fff;
-    font-size: 3vmax;
-}
+/* FOOTER */
 
-.copyright a{
-    color: #fff;
-}
-
-.copyright a:focus,
-.copyright a:hover{
-    color: #ffa500;
-}
 
 .ft-contact{
     display: block;    
@@ -220,6 +206,40 @@ header{
     color: #ffa500;
 }
 
+.rodape{
+    background-color: #2094f3;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    background-color: black;
+   padding: 1rem;
+    text-align: center;
+}
 /* MOBILE ADAPTATION */
 @media (max-width: 480px){
     .logo{        
