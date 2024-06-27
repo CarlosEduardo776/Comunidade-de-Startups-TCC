@@ -144,7 +144,7 @@ header{
     border-radius: 20px;
     padding: 1vmax;    
     background-color: #3173D6;
-    font-size: 2.2rem;
+    font-size: 1.7rem;
 }
 
 .more img{
@@ -159,13 +159,6 @@ header{
     color: #fff;
     border: 1px solid #f3bd8a;
 }
-
-
-
-
-
-
-
 
 
 
@@ -227,13 +220,7 @@ header{
 
 
 
-
-
-
-
 /* comentarios */
-
-
 
 
 .comentario{
@@ -241,6 +228,7 @@ header{
     background-color: rgba(0,180,216,1);
     flex-wrap: wrap;
 }
+
 .comentario h2{
     text-align: center;
     margin-bottom: 3rem;
@@ -259,9 +247,9 @@ header{
     padding: 2.5rem;
     background-color: #ccd5d8;
     text-align: center;
-    border-radius: 20px;
-    
+    border-radius: 20px;   
 }
+
 .filho img{
     height: 40%;
     width: auto;
