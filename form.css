@@ -132,6 +132,15 @@ form > div input:focus{
 }
 
 /* RETIRANDO SETAS DO INPUT type="number" */
+#telefone::-webkit-inner-spin-button{ 
+    -webkit-appearance: none;    
+}
+
+#telefone{ 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
 #cpf::-webkit-inner-spin-button{ 
     -webkit-appearance: none;    
 }
@@ -140,6 +149,7 @@ form > div input:focus{
    -moz-appearance: textfield;
    appearance: textfield;
 }
+
 
 /* INPUT type="submit" */
 form input[type="submit"]{
