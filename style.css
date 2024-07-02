@@ -770,10 +770,23 @@ font-size: 2.2em;
 /* MOBILE ADAPTATION */
 @media (max-width: 480px){
     .logo{        
-        margin: 0 auto;        
+        margin: 0 auto;       
     }    
 
     .logo img{
         width: 20vmax;
+        height: 5rem; 
+    }
+
+    .efeitoHeader{
+        justify-content: center;
+    }
+
+    .more h1{
+        font-size: 2rem;
+    }
+
+    .more p{
+        font-size: 1.5rem;
     }
 }
