@@ -677,6 +677,7 @@ form input[type="submit"]:focus{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    margin-top: 1em;
   }
   
   .image-wrapper {
@@ -739,8 +740,20 @@ form input[type="submit"]:focus{
     height: 40rem;
   }
   
-  #carousel{
-    justify-content: center;
+ .carousel p{
+    font-size: 1.2em;
+    margin-top: 0.50rem;
+ }
+
+ 
+
+  .carousel h1 {
+text-align: center;
+font-size: 2.2em;
+  }
+
+  .carousel{
+    
   }
 
 
@@ -754,6 +767,8 @@ form input[type="submit"]:focus{
         padding: 60px 0px 40px 0px;
     }
 }
+
+
 
 
 /* MOBILE ADAPTATION */
