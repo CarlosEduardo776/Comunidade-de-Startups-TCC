@@ -134,6 +134,7 @@ header h1 {
 
 .text{
     text-align: start;
+    width: 37rem;
 }
 
 .more h1{
@@ -268,7 +269,7 @@ header h1 {
 }
 
 .filho{
-    height: 23rem;
+    height: 24rem;
     width: 20rem;
     padding: 2.5rem;
     background-color: #ccd5d8;
@@ -311,7 +312,7 @@ header h1 {
 /* segunda nomeclatura feita para adição do efeito no JS */
 
 .filho2{
-    height: 23rem;
+    height: 24rem;
     width: 20rem;
     padding: 2.5rem;
     background-color: #ccd5d8;
@@ -534,10 +535,11 @@ form input[type="submit"]:focus{
 
 /* FOOTER */
 .ft-top{    
-    color: #00b4d8;
-    padding: 8% 10% 10% 10%;
-    background-color: rgb(99, 99, 241);
-    text-align: center;
+
+    color: #fff;
+    padding: 5rem;
+    background-color: rgb(30, 30, 82);
+
 }
 
 .ft-top h2{            
@@ -647,6 +649,22 @@ form input[type="submit"]:focus{
 }
 
 
+@media screen and (max-width:1109px) {
+
+    .ft-top h2{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:1031) {
+    
+    
+}
+
+
 /* Carrosel */
   .carousel {
     width: 80%;
@@ -724,6 +742,7 @@ form input[type="submit"]:focus{
   #carousel{
     justify-content: center;
   }
+
 
 /*mobile*/
 @media (max-width: 768px) {
