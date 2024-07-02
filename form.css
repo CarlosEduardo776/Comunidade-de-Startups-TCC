@@ -127,8 +127,10 @@ form > div input:focus{
 
 /* INPUT - SUBMIT */
 .enviar{        
-    margin-left: 30%;
-    margin-top: 2vmax;
+    border-radius: 1em;
+    transition: 0.8s;
+    background-color: #00B4D8;        
+    color: #002fff;
 }
 
 /* RETIRANDO SETAS DO INPUT type="number" */
@@ -158,10 +160,10 @@ form input[type="submit"]{
     border: none;   
     font-size: 1.5vmax;            
     border: none;
-    background-color: #ffa500;
+    background-color: #3173D6;
     color: #111;        
     padding: 10px;
-    border: 4px double #111;    
+    border: 2px outset #111;    
 }
 
 form input[type="submit"]:focus,
