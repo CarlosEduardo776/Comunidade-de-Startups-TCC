@@ -46,6 +46,7 @@ revelar.reveal('.filho2', {
     distance: '150px',
     origin: 'top'
 });
+<<<<<<< HEAD
 //função carrosel
 document.addEventListener('DOMContentLoaded', function () {
     const images = document.querySelectorAll('.image-wrapper');
@@ -105,3 +106,41 @@ document.addEventListener('DOMContentLoaded', function () {
     showImage(index);
   });
   
+=======
+
+
+const formato = {
+
+    phone (value) {
+  
+      return value
+  
+        .replace(/\D/g, '')
+  
+        .replace(/(\d{2})(\d)/, '($1)$2')
+  
+        .replace(/(\d{4})(\d)/, '$1-$2')
+  
+        .replace(/(\d{4})-(\d)(\d{4})/, '$1$2-$3')
+  
+        .replace(/(-\d{4})\d+?$/, '$1')
+  
+    }
+  
+  }
+  
+   
+  
+  document.querySelectorAll('input').forEach(($input) => {
+  
+    const field = $input.dataset.js
+  
+    $input.addEventListener('input', (e) => {
+  
+      e.target.value = formato[field](e.target.value)
+  
+    }, false)
+  
+  })
+
+>>>>>>> 93d728b59bf3b2d43bd3bfd87871873b29ab9132
