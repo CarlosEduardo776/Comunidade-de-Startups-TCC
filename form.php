@@ -30,6 +30,5 @@ echo "<p> É um prazer te conhecer, a Inova NetWork agradece $nome $sobrenome! E
 
 
  </main>
-
 </body>
 </html>
