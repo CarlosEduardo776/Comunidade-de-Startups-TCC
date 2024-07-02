@@ -529,7 +529,7 @@ form input[type="submit"]:focus{
 
 /* FOOTER */
 .ft-top{    
-    color: #fff;
+    color: #00b4d8;
     padding: 8% 10% 10% 10%;
     background-color: rgb(99, 99, 241);
     text-align: center;
@@ -640,6 +640,85 @@ form input[type="submit"]:focus{
    padding: 1rem;
     text-align: center;
 }
+
+
+/* Carrosel */
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: #00b4d8; */
+    margin-top: 2rem;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    overflow: hidden; /* Para esconder a descrição que sai do contorno da imagem */
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .image-wrapper:hover .image-overlay {
+    transform: translateY(0);
+  }
+  
+  .buttons-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 49.5%;
+    margin-bottom: 25px;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  img{
+    max-width: 90rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90rem;
+    max-height: 40rem;
+    height: 40rem;
+  }
+  
+  #carousel{
+    justify-content: center;
+  }
 
 /*mobile*/
 @media (max-width: 768px) {
