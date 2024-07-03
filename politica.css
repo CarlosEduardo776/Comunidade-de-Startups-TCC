@@ -242,13 +242,103 @@ header h1 {
    padding: 1rem;
     text-align: center;
 }
+
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
+
+    .ft-top h2 {
+        font-size: 1.5rem;
+    }
+
+    .ft-top img{
+        margin: 2rem 12.5rem;
+    }
+
+    .rodape-div-1 img{
+        height: 4rem;
+    }
+
+
+    .carousel p {
+        text-align: center;
+    }
+}
+
+
+
+
 /* MOBILE ADAPTATION */
 @media (max-width: 480px){
     .logo{        
-        margin: 0 auto;        
+        margin: 0 auto;       
     }    
 
     .logo img{
         width: 20vmax;
+        height: 5rem; 
     }
+
+    .efeitoHeader{
+        justify-content: center;
+    }
+
+    .more h1{
+        font-size: 2rem;
+    }
+
+    .more p{
+        font-size: 1.3rem;
+    }
+
+
+
+    .infos h2{
+        font-size: 1.5rem;
+    }
+
+    
+
+    .comentariodiv p{
+        font-size: 0.9rem;
+    }
+
+
+
+    .form-box input[type="submit"]{
+        margin: 0 auto;
+    }
+
+
+    
+    .carousel h1{
+        font-size: 2rem;
+    }
+
+    .carousel p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+
+    .ft-top h2{
+        font-size: 1.4rem;
+    }
+
+    .ft-top img{
+        margin: 2rem 4rem;
+    }
+
+
+    .rodape-div-1 img{
+        height: 4rem;
+    }
+
 }

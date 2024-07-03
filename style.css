@@ -430,7 +430,6 @@ form input[type="submit"]{
     color: #fff;
     cursor: pointer;
     border: none;
-    
     text-align: center;
     margin: 0 5rem;
 }
@@ -550,6 +549,7 @@ form input[type="submit"]:focus{
     font-size: 3rem;
     font-weight: 700;
     font-family: "Space Mono", monospace;
+    text-align: center;
 }
 
 .ft-top img{
@@ -762,6 +762,23 @@ font-size: 2.2em;
     .rodape-div{
         padding: 60px 0px 40px 0px;
     }
+
+    .ft-top h2 {
+        font-size: 1.5rem;
+    }
+
+    .ft-top img{
+        margin: 2rem 12.5rem;
+    }
+
+    .rodape-div-1 img{
+        height: 4rem;
+    }
+
+
+    .carousel p {
+        text-align: center;
+    }
 }
 
 
@@ -787,6 +804,51 @@ font-size: 2.2em;
     }
 
     .more p{
+        font-size: 1rem;
+    }
+
+
+
+    .infos h2{
         font-size: 1.5rem;
     }
+
+    
+
+    .comentariodiv p{
+        font-size: 0.9rem;
+    }
+
+
+
+    .form-box input[type="submit"]{
+        margin: 0 auto;
+    }
+
+
+    
+    .carousel h1{
+        font-size: 2rem;
+    }
+
+    .carousel p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+
+    .ft-top h2{
+        font-size: 1.4rem;
+    }
+
+    .ft-top img{
+        margin: 2rem 4rem;
+    }
+
+
+    .rodape-div-1 img{
+        height: 4rem;
+    }
+
 }
