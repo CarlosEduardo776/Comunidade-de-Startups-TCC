@@ -346,6 +346,10 @@ header h1 {
     box-shadow: 10px 10px 1rem #6a41db;
 }
 
+.carousel p {
+    text-align: center;
+}
+
 /* ANIMATION - HR*/
 @keyframes hr-move {
     from{
@@ -746,10 +750,16 @@ form input[type="submit"]:focus{
  }
 
  
+.carousel h1 {
+    text-align: center;
+ 
+    font-family: "Space Mono", monospace;
+      }
 
-  .carousel h1 {
+.carousel h1 {
 text-align: center;
 font-size: 2.2em;
+font-family: "Space Mono", monospace;
   }
 
   @media (max-width: 1080px) {
