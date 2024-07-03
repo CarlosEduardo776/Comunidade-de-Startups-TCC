@@ -51,13 +51,13 @@ body{
     margin: 10vmax auto;   
     text-align: center;      
     background-color: #0c81e0b2;
+    border-radius: 5%;
     
 }
 
 .formulario-text{
-    background-color: #0059ff6b;    
     display: block;
-    padding: 2%;    
+    padding: 2%;   
 }
 
 .formulario-text > h2{
