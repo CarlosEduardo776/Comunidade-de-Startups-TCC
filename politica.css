@@ -62,7 +62,7 @@ header h1 {
 }
 
 .logo img{
-    width: 10vmax;    
+    width: 20vmax;    
 }
 
 
@@ -206,6 +206,10 @@ header h1 {
 
 .ft-contact svg{
     color: #ffa500;
+}
+
+.rodape-div-1 img{
+    height: 5rem;
 }
 
 .rodape{
